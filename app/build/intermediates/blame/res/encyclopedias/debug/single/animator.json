@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\animator\\scale_with_alpha.xml",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\animator\\scale_with_alpha.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\animator\\translation_and_rotate.xml",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\animator\\translation_and_rotate.xml"
+    }
+]

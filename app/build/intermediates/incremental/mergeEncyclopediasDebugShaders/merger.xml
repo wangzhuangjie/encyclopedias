@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\encyclopedias\app\src\main\shaders"/></dataSet><dataSet config="encyclopedias"><source path="F:\encyclopedias\app\src\encyclopedias\shaders"/></dataSet><dataSet config="debug"><source path="F:\encyclopedias\app\src\debug\shaders"/></dataSet><dataSet config="encyclopediasDebug"><source path="F:\encyclopedias\app\src\encyclopediasDebug\shaders"/></dataSet></merger>

@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f6">
+
+<LinearLayout
+    android:id="@+id/ll_date"
+    android:layout_width="match_parent"
+    android:background="@color/mdtp_white"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="13dp"
+        android:gravity="center_vertical"
+        android:text="18日"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/gray_d"
+        android:layout_height="1px"></View>
+</LinearLayout>
+    <RelativeLayout
+        android:layout_below="@+id/ll_date"
+        android:layout_width="match_parent"
+        android:background="@color/mdtp_white"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_video">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:src="@mipmap/img_canlendar_video"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/tv_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/gray_3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:text="视频问诊"
+            android:layout_toRightOf="@+id/imageView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/gray_6"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="9:00-9:15 10:00-10:15"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/tv_video"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/view_lian1"
+        android:layout_below="@+id/rl_video"
+        android:layout_width="match_parent"
+        android:layerType="software"
+        android:background="@drawable/dash_line"
+        android:layout_height="1px"></View>
+
+    <RelativeLayout
+        android:layout_below="@+id/view_lian1"
+        android:layout_width="match_parent"
+        android:background="@color/mdtp_white"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_elecast">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:src="@mipmap/img_canlendar_telecast"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/iv_1" />
+
+        <TextView
+            android:id="@+id/tv_elecast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/gray_3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:text="视频问诊"
+            android:layout_toRightOf="@+id/iv_1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/gray_6"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="9:00-9:15 10:00-10:15"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/tv_elecast"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_lian2"
+        android:layout_below="@+id/rl_elecast"
+        android:layout_width="match_parent"
+        android:layerType="software"
+        android:background="@drawable/dash_line"
+        android:layout_height="1px"></View>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/view_lian2"
+        android:layout_width="match_parent"
+        android:background="@color/mdtp_white"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_consulation">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:src="@mipmap/img_canlendar_consultation"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/iv_2" />
+
+        <TextView
+            android:id="@+id/tv_consulation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/gray_3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:text="专家会诊"
+            android:layout_toRightOf="@+id/iv_2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/gray_6"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="9:00-9:15 10:00-10:15"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/tv_consulation"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

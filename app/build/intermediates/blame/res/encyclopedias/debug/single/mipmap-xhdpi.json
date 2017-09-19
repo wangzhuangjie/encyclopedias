@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\icon_chat_voice.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\icon_chat_voice.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\icon_chat_photograph.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\icon_chat_photograph.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\icon_voice_right1.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\icon_voice_right1.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\icon_chat_expression.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\icon_chat_expression.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\icon_chat_add.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\icon_chat_add.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\record_bottom.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\record_bottom.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\icon_voice_right3.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\icon_voice_right3.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\icon_voice_left2.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\icon_voice_left2.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\icon_voice_right2.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\icon_voice_right2.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\icon_voice_left1.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\icon_voice_left1.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\icon_chat_photo.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\icon_chat_photo.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\record_top.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\record_top.png"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\mipmap-xhdpi\\icon_voice_left3.png",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\mipmap-xhdpi\\icon_voice_left3.png"
+    }
+]

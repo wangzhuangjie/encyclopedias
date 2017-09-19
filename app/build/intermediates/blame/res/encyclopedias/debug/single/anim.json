@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\b4482e0044c965dbb344f8d4377b864e28aee901\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\slide_out_bottom.xml",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\anim\\slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\slide_in_bottom.xml",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\b4482e0044c965dbb344f8d4377b864e28aee901\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\c63c409ee790fe298852ec48f48919103c177887\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\c63c409ee790fe298852ec48f48919103c177887\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\b4482e0044c965dbb344f8d4377b864e28aee901\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\c63c409ee790fe298852ec48f48919103c177887\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\b4482e0044c965dbb344f8d4377b864e28aee901\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\b4482e0044c965dbb344f8d4377b864e28aee901\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\b4482e0044c965dbb344f8d4377b864e28aee901\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\c63c409ee790fe298852ec48f48919103c177887\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\fade_out_center.xml",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\anim\\fade_out_center.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\b4482e0044c965dbb344f8d4377b864e28aee901\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\c63c409ee790fe298852ec48f48919103c177887\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\b4482e0044c965dbb344f8d4377b864e28aee901\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\b4482e0044c965dbb344f8d4377b864e28aee901\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\c63c409ee790fe298852ec48f48919103c177887\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\wangzhuangjie\\.android\\build-cache\\b4482e0044c965dbb344f8d4377b864e28aee901\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\encyclopedias\\app\\build\\intermediates\\res\\merged\\encyclopedias\\debug\\anim\\fade_in_center.xml",
+        "source": "F:\\encyclopedias\\app\\src\\main\\res\\anim\\fade_in_center.xml"
+    }
+]

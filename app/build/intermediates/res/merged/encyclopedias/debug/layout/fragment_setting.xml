@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray_f6">
+<!-- 个人信息-->
+    <View
+        android:id="@+id/v_sep_h1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_width"
+        android:layout_below="@id/tb_title"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray_d" />
+
+    <RelativeLayout
+        android:id="@+id/rl_personnal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_sep_h1"
+        android:background="@color/mdtp_white"
+        android:clickable="true"
+        android:paddingBottom="13dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="13dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/person_detail"
+            android:textColor="@color/gray_3"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/img_open"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <!-- 随访价格-->
+    <View
+        android:id="@+id/v_sep_h1_0"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_width"
+        android:layout_below="@id/rl_personnal"
+        android:layout_marginLeft="12dp"
+        android:background="@color/gray_d" />
+
+    <RelativeLayout
+        android:id="@+id/rl_followup_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_sep_h1_0"
+        android:background="@color/mdtp_white"
+        android:clickable="true"
+        android:paddingBottom="13dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="13dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/followup_price"
+            android:textColor="@color/gray_3"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/img_open"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+<!--修改密码-->
+
+    <View
+        android:id="@+id/v_sep_h1_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_width"
+        android:layout_below="@id/rl_followup_price"
+        android:layout_marginLeft="12dp"
+        android:background="@color/gray_d" />
+
+    <RelativeLayout
+        android:id="@+id/rl_fix_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_sep_h1_1"
+        android:background="@color/mdtp_white"
+        android:clickable="true"
+        android:paddingBottom="13dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="13dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/fix_pw"
+            android:textColor="@color/gray_3"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img_open"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+
+    <!--设置提醒-->
+
+    <View
+        android:id="@+id/v_sep_h1_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_width"
+        android:layout_below="@id/rl_fix_pw"
+        android:layout_marginLeft="12dp"
+        android:background="@color/gray_d" />
+
+    <RelativeLayout
+        android:id="@+id/rl_remind_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_sep_h1_1"
+        android:background="@color/mdtp_white"
+        android:clickable="true"
+        android:paddingBottom="13dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="13dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/remind_setting"
+            android:textColor="@color/gray_3"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img_open"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <!-- 关于我们-->
+
+    <View
+        android:id="@+id/v_sep_h2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_width"
+        android:layout_below="@id/rl_remind_setting"
+        android:background="@color/gray_d" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_sep_h2"
+        android:background="@color/mdtp_white"
+        android:clickable="true"
+        android:paddingBottom="13dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="13dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/about"
+            android:textColor="@color/gray_3"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/img_open"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v_sep_h4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_width"
+        android:layout_below="@id/rl_about_us"
+        android:background="@color/gray_d" />
+
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_sep_h4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/logout_bg"
+        android:text="@string/logout"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        style="?android:attr/borderlessButtonStyle"
+        />
+</RelativeLayout>

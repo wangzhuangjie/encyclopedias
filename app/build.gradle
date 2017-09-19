@@ -1,0 +1,161 @@
+buildscript {
+
+}
+apply plugin: 'com.android.application'
+
+
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'me.tatarka.retrolambda'
+
+
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    defaultConfig {
+        applicationId 'com.encyclopdias'
+        minSdkVersion 16
+        targetSdkVersion 23
+        testInstrumentationRunner "${applicationId}.runner.RxAndroidJUnitRunner"
+        versionCode 1000
+        // Major -> Millions, Minor -> Thousands, Bugfix -> Hundreds. E.g 1.3.72 == 1,003,072
+        versionName '1.0.0'
+    }
+
+
+    signingConfigs {
+        // You must set up an environment var before release signing
+        // Run: export APP_KEY={password}
+        // TODO Add your release keystore in /keystore folder
+       // release {
+           // storeFile file('keystore/release.keystore')
+            //keyAlias 'ency'
+            //storePassword "ency12"
+           // keyPassword "ency12"
+        //}
+
+        debug {
+            storeFile file('keystore/debug.keystore')
+            keyAlias 'androiddebugkey'
+            storePassword 'android'
+            keyPassword 'android'
+        }
+
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+
+            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            ext.betaDistributionReleaseNotesFilePath =
+                    file('../crashlytics_release_notes.txt').absolutePath
+        }
+
+        debug {
+            versionNameSuffix " Debug"
+            debuggable true
+        }
+    }
+
+    sourceSets {
+        def commonTestDir = 'src/commonTest/java'
+        test {
+            java.srcDir commonTestDir
+        }
+        androidTest {
+            java.srcDir commonTestDir
+        }
+    }
+
+    //Needed because of this https://github.com/square/okio/issues/58
+    lintOptions {
+        warning 'InvalidPackage'
+    }
+
+    //多渠道打包
+    productFlavors {
+//        huawei {}
+//        tencent {}
+//        xiaomi {}
+//        wandoujia {}
+//        baidu {}
+//        qihu360 {}
+        encyclopedias {}
+//
+        productFlavors.all {
+            flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+        }
+    }
+}
+
+
+dependencies {
+    final SUPPORT_LIBRARY_VERSION = '23.2.1'
+    final RETROFIT_VERSION = '2.0.2'
+    final DAGGER_VERSION = '2.0.2'
+    def daggerCompiler = "com.google.dagger:dagger-compiler:$DAGGER_VERSION"
+    // App Dependencies
+    compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:design:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:recyclerview-v7:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:cardview-v7:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:support-annotations:$SUPPORT_LIBRARY_VERSION"
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.bumptech.glide:okhttp3-integration:1.4.0@aar'
+    compile 'com.squareup.sqlbrite:sqlbrite:0.4.1'
+    compile "com.squareup.retrofit2:retrofit:$RETROFIT_VERSION"
+    compile "com.squareup.retrofit2:converter-gson:$RETROFIT_VERSION"
+    compile "com.squareup.retrofit2:adapter-rxjava:$RETROFIT_VERSION"
+    compile 'com.squareup:otto:1.3.8'
+    //    compile 'com.jakewharton:butterknife:7.0.1'
+
+    // Uses a compiled aar version of latest RxAndroid because issue #238
+
+    // is not in maven central yet
+    compile 'com.commit451:PhotoView:1.2.4'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+    compile 'com.jakewharton.rxbinding:rxbinding-support-v4:0.4.0'
+    compile 'com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.4.0'
+    compile 'com.jakewharton.rxbinding:rxbinding-design:0.4.0'
+    compile 'com.jakewharton.timber:timber:4.1.0'
+    compile 'com.ogaclejapan.smarttablayout:library:1.6.0@aar'
+    compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.0@aar'
+    compile 'com.wdullaer:materialdatetimepicker:2.3.0'
+    compile "com.google.dagger:dagger:$DAGGER_VERSION"
+    compile "com.android.support:percent:$SUPPORT_LIBRARY_VERSION"
+
+
+    // APT dependencies
+    apt daggerCompiler
+    testApt daggerCompiler
+    androidTestApt daggerCompiler
+    testCompile 'junit:junit:4.12'
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/Baidu-SpeechRecognitionUI-SDK-Android-1.6.2.jar')
+    compile files('libs/com.baidu.android.localasr_1.1.22.jar')
+    compile files('libs/com.baidu.speechsynthesizer_1.1.2.jar')
+    compile files('libs/galaxy.jar')
+    compile files('libs/tulingSDK1.4.jar')
+    compile files('libs/turinghttp_1.0.jar')
+    compile files('libs/VoiceRecognition-1.6.2.jar')
+    compile files('libs/volley.jar')
+    compile files('libs/hyphenatechat_3.3.3.jar')
+}
+
+

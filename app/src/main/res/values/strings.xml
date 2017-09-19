@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">汇医在线医生版</string>
+    <string name="plase_input_username">请输入用户名/汇医号</string>
+    <string name="plase_input_password">请输入密码</string>
+    <string name="login_button">登录</string>
+    <string name="tel">客服电话: </string>
+    <string name="my_homepage">我的主页</string>
+    <string name="news">医疗咨询</string>
+    <string name="name">姓名</string>
+    <string name="avatar">头像</string>
+    <string name="title">职称</string>
+    <string name="department">科室</string>
+    <string name="hospitall">医院</string>
+    <string name="business_card">二维码名片</string>
+    <string name="good">擅长</string>
+    <string name="practice_experience">执业经历</string>
+    <string name="person_detail">个人信息</string>
+    <string name="followup_price">随访价格</string>
+    <string name="fix_pw">修改密码</string>
+    <string name="remind_setting">提醒设置</string>
+    <string name="about">关于我们</string>
+    <string name="logout">退出</string>
+    <string name="expand">展开</string>
+
+    <string name="loading">正在加载</string>
+    <string name="pull_up_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">松开刷新</string>
+    <string name="pull_down_to_load_more">上拉加载更多</string>
+    <string name="release_to_load_more">松开加载更多</string>
+    <string name="homepage">首页</string>
+    <string name="followup_patients">随访患者</string>
+    <string name="medical_circle">医疗圈</string>
+    <string name="setting">设置</string>
+
+    <string name="finish_app">再按一次退出程序</string>
+</resources>
